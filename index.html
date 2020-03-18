@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>注册页面</title>
+  <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+<div id="root">
+  用户名：<input type="text" id="name"><br/>
+  <div id="msgname"></div>
+  手机号：<input type="text" id="phone"><br/>
+  <div id="msgphone"></div>
+  密 码：<input type="password" id="pwd"><br/>
+  <div id="msgpwd"></div>
+  验证码：<input type="text" id="num">
+  <input type="button" value="发送验证码" id="code">
+  <br/>
+  <div id="msgnum"></div>
+  <input type="button" value="注册" id="register">
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="./register.js"></script>
+</html>

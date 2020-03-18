@@ -1,0 +1,41 @@
+body {
+  font-family: 微软雅黑;
+  line-height: 2em;
+  margin: 0;
+  font-size: 1.2em
+}
+#root {
+  width: 360px;
+  margin: 20px auto 0;
+  padding: 20px 20px;
+  position: relative;
+}
+input {
+  font-size: 1.2em;
+  margin: 0;
+}
+#pwd{
+  margin-left:13px;
+}
+div{
+  height:30px;
+}
+#msgname,
+#msgphone,
+#msgpwd,
+#msgnum{
+  width:500px;
+  color: red;
+  font-size: 0.8em;
+  margin-left: 80px;
+}
+#num{
+  width:100px
+}
+#code{
+  width:170px;
+  font-size:12px;
+}
+#register{
+ margin-left:150px
+}
